@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './app.css';
+import LoginBox from './components/LoginBox';
 
 class App extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class App extends Component {
 
     return (
       <div>
-        Hello, {this.state.user}!  Welcome to your new App!
+        <LoginBox />
       </div>
     )
   }
